@@ -17,7 +17,7 @@ epc_mod <- epc_data[(epc_data$Date >= "2007-02-01" & epc_data$Date < "2007-02-03
 # remove original dataset
 rm(epc_data)
 
-# remove NAs
+# remove NAS
 epc_mod <- epc_mod[!is.na(epc_mod$Date),]
 epc_mod$Global_active_power<-as.numeric(epc_mod$Global_active_power)
 epc_mod$Voltage<-as.numeric(epc_mod$Voltage)

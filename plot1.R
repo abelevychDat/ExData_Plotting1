@@ -1,4 +1,4 @@
-## Project1
+## Course Project1
 
 ## --------------------- LOAD & READ DATA ------------------------
 temp <-tempfile()

@@ -1,4 +1,4 @@
-## Project1
+## Project1 Plot #3
 
 ## --------------------- LOAD & READ DATA ------------------------
 temp <-tempfile()
@@ -22,11 +22,8 @@ epc_mod <- epc_mod[!is.na(epc_mod$Date),]
 epc_mod$Global_active_power<-as.numeric(epc_mod$Global_active_power)
 epc_mod$Voltage<-as.numeric(epc_mod$Voltage)
 
+
 ## ----------------- GENERATE PLOTS -------------------------------
-
-
-
-
 
 # plot #3
 png("plot3.png", width = 480, height = 480)
@@ -43,6 +40,7 @@ plot(epc_mod$Date,epc_mod$Sub_metering_3, type = "l",
 legend("topright", lty = 1, col = c("black", "red", "blue"), 
        legend =c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3") )
 par(new = F)
+
 #save plot 
 dev.off()
 

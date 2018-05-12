@@ -1,4 +1,4 @@
-## Course Project1
+## Course Project1 Plot#1
 
 ## --------------------- LOAD & READ DATA ------------------------
 temp <-tempfile()
@@ -23,8 +23,6 @@ epc_mod$Global_active_power<-as.numeric(epc_mod$Global_active_power)
 epc_mod$Voltage<-as.numeric(epc_mod$Voltage)
 
 ## ----------------- GENERATE PLOTS -------------------------------
-
-
 
 # plot #1
 png('plot1.png', width = 480, height = 480)

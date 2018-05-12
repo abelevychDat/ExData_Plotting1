@@ -90,7 +90,7 @@ date. There should be four PNG files and four R code files.
 ### Plot 1
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+plot1.png 
 
 
 ### Plot 2

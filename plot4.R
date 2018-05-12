@@ -1,4 +1,4 @@
-## Project1
+## Project1 Plot#4
 
 ## --------------------- LOAD & READ DATA ------------------------
 temp <-tempfile()
@@ -23,10 +23,6 @@ epc_mod$Global_active_power<-as.numeric(epc_mod$Global_active_power)
 epc_mod$Voltage<-as.numeric(epc_mod$Voltage)
 
 ## ----------------- GENERATE PLOTS -------------------------------
-
-
-
-
 
 
 # plot #4
@@ -57,5 +53,6 @@ par(new = F)
 
 plot(epc_mod$Date, epc_mod$Global_reactive_power, type = "l",
      ylab = "Global_reactive_power", xlab = "datetime")
+
 #save plot 
 dev.off()

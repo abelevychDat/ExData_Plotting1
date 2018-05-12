@@ -1,3 +1,13 @@
+# Exploratory Data Analysis
+## Course Project 1
+<b>File list:</b> <br />
+<i> plot1.R</i> load data and generate <i> plot1.png. </i> <br />
+<i> plot2.R</i> load data and generate <i> plot2.png. </i> <br />
+<i> plot3.R</i> load data and generate <i> plot3.png. </i> <br />
+<i> plot4.R</i> load data and generate <i> plot4.png. </i> <br />
+<i> Project1.R</i> load data and generate all four plots. <br />
+
+# Description of the Assignment
 ## Introduction
 
 This assignment uses data from
@@ -85,25 +95,4 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-
-
-### Plot 1
-
-
-plot1.png 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 

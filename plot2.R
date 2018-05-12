@@ -1,4 +1,5 @@
-## Project1
+## Project1 Plot #2
+
 
 ## --------------------- LOAD & READ DATA ------------------------
 temp <-tempfile()
@@ -17,14 +18,12 @@ epc_mod <- epc_data[(epc_data$Date >= "2007-02-01" & epc_data$Date < "2007-02-03
 # remove original dataset
 rm(epc_data)
 
-# remove NAs
+# remove NAS
 epc_mod <- epc_mod[!is.na(epc_mod$Date),]
 epc_mod$Global_active_power<-as.numeric(epc_mod$Global_active_power)
 epc_mod$Voltage<-as.numeric(epc_mod$Voltage)
 
-## ----------------- GENERATE PLOTS -------------------------------
-
-
+## ----------------- GENERATE PLOT -------------------------------
 
 
 # plot #2
@@ -32,6 +31,7 @@ png("plot2.png", width = 480, height = 480)
 plot(epc_mod$Date,epc_mod$Global_active_power, type = "l", 
      ylab = "Global Active Power (kilowatts)", xlab = "", xaxt ="n")
 axis.POSIXct(1,epc_mod$Date,  format="%a", labels = TRUE)
+
 #save plot 
 dev.off()
 
